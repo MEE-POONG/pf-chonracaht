@@ -15,7 +15,8 @@ export default function Info (){
 
             <div className="text-center">
             <h1 className=" text-center">My Profile & status</h1></div>
-            <center><img className=" w-[350px] " src="https://scontent.fnak3-1.fna.fbcdn.net/v/t39.30808-6/353042613_2188830094842235_8573190423118875508_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFcJpqIMt001fm1zfMznkAZQLUBpINtVQBAtQGkg21VACuLerGaTGuxBDq8_sPqvpu0h9Fs4wYmc5IS47yV9c5D&_nc_ohc=0EYkMh_ihOkAX-08Fe4&_nc_ht=scontent.fnak3-1.fna&oh=00_AfARw-jr6fhqu09qZwWbVfYf4tsN-T_GYE7A0Lo5sECRbQ&oe=6498D786" alt=""/>
+            <center><img className=" w-[350px] mt-4 mb-4" src="/img/pond.jpg" alt=""/>
+            
             </center>
             <div className="text-center">
             <h2 className="">ชื่อ : ชลชาติ อินทรสูตร </h2>
@@ -27,11 +28,11 @@ export default function Info (){
             <p className="">ที่อยู่ : บ.229 ถ.สุรนารายณ์ ต.ในเมือง อ.เมือง จ.นครราชาสีมา 30000 </p>
 
             <a href="profile" className="font-medium text-blue-600 dark:text-blue-500 hover:underline text-center">
-             <center><img className=" w-[100px]" src="http://localhost:3000/img/profile.png" alt=""/></center>
+             <center><img className=" w-[100px] mt-3 " src="/img/profile.png" alt=""/></center>
              <p className="">ข้อมูลเพิ่มเติม</p></a>
              </div>
             
-            <div className="text-center">
+            <div className="text-center mt-4">
             <h2 className="">งานอดิเรก</h2>
             <p className="">รับงานซ่อม ขาย คอมพิวเตอร์ - โน๊ตบุ๊ค และ อุปกรณ์ไอที</p>
             <p className=""></p>
@@ -39,11 +40,11 @@ export default function Info (){
 
             
                 <a href="hobby" className="">
-                    <center><img className="w-[100px]" src="http://localhost:3000/img/hobby.png" alt=""/><p className="">งานอดิเรกเพิ่มเติม</p></center>
+                    <center><img className="w-[100px] mt-4" src="/img/hobby.png" alt=""/><p className="">งานอดิเรกเพิ่มเติม</p></center>
                 </a>
             
             <div className="text-center first-line: bg-center">
-            <h2 className="">Skill</h2>
+            <h2 className="mt-4 mb-2">Skill</h2>
 
             <div><span className="">-เขียนโปรแกรม</span> 
             <div className ="flex ...">
@@ -80,7 +81,7 @@ export default function Info (){
             </div>
             
             <span><a href="hobby" className="">
-                    <center><img className="w-[100px]" src="http://localhost:3000/img/hobby.png" alt=""/><p className="">สกิลเพิ่มเติม</p></center>
+                    <center><img className="w-[100px] mt-4" src="/img/hobby.png" alt=""/><p className="">สกิลเพิ่มเติม</p></center>
                 </a></span>
             </div>
             </div>
@@ -91,14 +92,14 @@ export default function Info (){
             
 
 
-            <h2 className="">สิ่งที่คาดหวังว่าจะได้จากที่ฝึกงาน</h2>
+            <h2 className="mt-4">สิ่งที่คาดหวังว่าจะได้จากที่ฝึกงาน</h2>
 
             <p className="">เพิ่ม Skill การทำงานให้มากขึ้นกว่าเดิม</p>
             <p className="">เพิ่ม Skill UX/Ui</p>
             <p className="">เรียนรู้การทำงานและขั้นตอนการทำงาน</p>
             <p className=""></p>
             <a href="hobby" className="">
-                    <center><img className="w-[100px]" src="http://localhost:3000/img/trade.png" alt=""/><p className="">งานอดิเรกเพิ่มเติม</p></center>
+                    <center><img className="w-[100px] mt-4" src="/img/trade.png" alt=""/><p className="">งานอดิเรกเพิ่มเติม</p></center>
                 </a>
 
 

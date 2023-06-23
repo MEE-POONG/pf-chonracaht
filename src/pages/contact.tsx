@@ -17,24 +17,10 @@ export default function Contact(){
 
 <img src="" alt="" />
 <div className="text-center">
-<img src="http://localhost:3000/img/facebook.png" className="w-[100px] text-center" alt="" />Facebook : ปอนด์
-<p className=""><img src="http://localhost:3000/img/Line.png" className="w-[100px]" alt="" /></p>Line id : P_0610614931
+<img src="http://localhost:3000/img/facebook.png" className="w-[100px] text-center mt-5" alt="" />Facebook : ปอนด์
+<p className=""><img src="http://localhost:3000/img/Line.png" className="w-[100px] mt-5" alt="" /></p>Line id : P_0610614931
 <img src="http://localhost:3000/img/instagram.png" className="w-[100px]" alt="" />
 
-
-
-
-
-<p className="">ชื่อเล่น : ปอนด์ </p>
- <p className="">อายุ : 23 ปี</p>
-<p className="">เพศ : ชาย</p>
-<p className="">ศาสนา : พุทธ</p>
-<p className="">สัญชาติ : ไทย</p>
-<p className="">ที่อยู่ : บ.229 ถ.สุรนารายณ์ ต.ในเมือง อ.เมือง จ.นครราชาสีมา 30000 </p>
-
-<a href="profile" className="font-medium text-blue-600 dark:text-blue-500 hover:underline text-center">
- <center><img className=" w-[100px]" src="http://localhost:3000/img/profile.png" alt=""/></center>
- <p className="">ข้อมูลเพิ่มเติม</p></a>
  </div>
 
 <div className="text-center">
@@ -42,12 +28,7 @@ export default function Contact(){
 <p className="">รับงานซ่อม ขาย คอมพิวเตอร์ - โน๊ตบุ๊ค และ อุปกรณ์ไอที</p>
 <p className=""></p>
 </div>
-
-
 </div>
-
-
-        
 </RootLayout>
     )
 }
