@@ -25,6 +25,9 @@
       "@/test": [
         "./data/test.ts"
       ],
+      "@/assets": [
+        "./assets/img/*"
+      ],
       "@/components/*": [
         "./components/*"
       ],

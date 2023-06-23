@@ -1,5 +1,67 @@
 @tailwind base;
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+  display: flex;
+    align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+  }
+
+  h1 {
+    color: hsl(0, 0%, 28%);
+    font-size: 60px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+  }
+  
+  h1 span {
+    transition: 0.5s ease-out;
+  }
+  h1:hover span:nth-child(1) {
+    margin-right: 5px;
+  }
+  h1:hover span:nth-child(1):after {
+    content: "'";
+  }
+  h1:hover span:nth-child(2) {
+    margin-left: 30px;
+  }
+  h1:hover span {
+    color: #000000;
+    text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 40px #000000;
+  }
+  h2 {
+    color: hsl(0, 0%, 28%);
+    font-size: 35px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+  }
+  h3 {
+    color: hsl(0, 0%, 0%);
+    font-size: 35px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+  }
+  h6 {
+    margin-left: 100px;
+  }
 
 
