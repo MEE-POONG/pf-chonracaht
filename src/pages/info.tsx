@@ -15,7 +15,7 @@ export default function Info (){
 
             <div className="text-center">
             <h1 className=" text-center">My Profile & status</h1></div>
-            <center><img className=" w-[350px] " src="https://scontent.fnak3-1.fna.fbcdn.net/v/t39.30808-6/353042613_2188830094842235_8573190423118875508_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFcJpqIMt001fm1zfMznkAZQLUBpINtVQBAtQGkg21VACuLerGaTGuxBDq8_sPqvpu0h9Fs4wYmc5IS47yV9c5D&_nc_ohc=0EYkMh_ihOkAX-08Fe4&_nc_ht=scontent.fnak3-1.fna&oh=00_AfARw-jr6fhqu09qZwWbVfYf4tsN-T_GYE7A0Lo5sECRbQ&oe=6498D786" alt="" />
+            <center><img className=" w-[350px] " src="https://scontent.fnak3-1.fna.fbcdn.net/v/t39.30808-6/353042613_2188830094842235_8573190423118875508_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFcJpqIMt001fm1zfMznkAZQLUBpINtVQBAtQGkg21VACuLerGaTGuxBDq8_sPqvpu0h9Fs4wYmc5IS47yV9c5D&_nc_ohc=0EYkMh_ihOkAX-08Fe4&_nc_ht=scontent.fnak3-1.fna&oh=00_AfARw-jr6fhqu09qZwWbVfYf4tsN-T_GYE7A0Lo5sECRbQ&oe=6498D786" alt=""/>
             </center>
             <div className="text-center">
             <h2 className="">ชื่อ : ชลชาติ อินทรสูตร </h2>
