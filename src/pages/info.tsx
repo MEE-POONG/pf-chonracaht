@@ -6,12 +6,10 @@ import RootLayout from "./layout";
 
 
 export default function Info (){
-   
-
 
     return (
         <RootLayout> 
-        <div>
+        <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
 
             <div className="text-center">
             <h1 className=" text-center">My Profile & status</h1></div>
