@@ -12,7 +12,7 @@ export default function Contact(){
         <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
 
 <div className="text-center">
-<h1 className=" text-center">My Contact</h1></div>
+<h1 className=" text-center text-red-500">My Contact</h1></div>
 
 
 <img src="" alt="" />

@@ -43,9 +43,9 @@ export default function Info (){
             
             <div className="text-center first-line: bg-center">
             <h2 className="mt-4 mb-2">Skill</h2>
-
+            <center>
             <div><span className="">-เขียนโปรแกรม</span> 
-            <div className ="flex ...">
+            <div className ="flex ... ">
                <div className="w-[60%] bg-slate-500  text-center text-stone-100">60 %</div>
                 <div className=" w-[40%]  "></div>
             </div></div>
@@ -68,26 +68,16 @@ export default function Info (){
                 <div className=" w-[35%]  "></div>
             </div></div>
             
-            <span className="">การฟัง</span> 
+            <div><span className="">การฟัง</span> 
             <div className ="flex ...">
             <div className="  w-[85%]  bg-slate-500 text-center text-stone-100">85 %</div>
-                <div className=" w-[15%]  "></div>
-                
-
-
-
-            </div>
+                <div className=" w-[15%] "></div>
+                </div></div>
             
             <span><a href="hobby" className="">
                     <center><img className="w-[100px] mt-4" src="/img/hobby.png" alt=""/><p className="">สกิลเพิ่มเติม</p></center>
                 </a></span>
-            </div>
-            </div>
-
-
-            <p className=""></p>
-
-            
+                </center>
 
 
             <h2 className="mt-4">สิ่งที่คาดหวังว่าจะได้จากที่ฝึกงาน</h2>
@@ -97,12 +87,11 @@ export default function Info (){
             <p className="">เรียนรู้การทำงานและขั้นตอนการทำงาน</p>
             <p className=""></p>
             <a href="hobby" className="">
-                    <center><img className="w-[100px] mt-4" src="/img/trade.png" alt=""/><p className="">งานอดิเรกเพิ่มเติม</p></center>
-                </a>
+        <center><img className="w-[100px] mt-4" src="/img/trade.png" alt=""/><p className="">งานอดิเรกเพิ่มเติม</p></center>
+    </a>
+            </div>
+            </div>
 
-
-
-           
  </RootLayout>
     )
    
