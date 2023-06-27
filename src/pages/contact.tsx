@@ -23,11 +23,7 @@ export default function Contact(){
 
  </div>
 
-<div className="text-center">
-<h2 className="">งานอดิเรก</h2>
-<p className="">รับงานซ่อม ขาย คอมพิวเตอร์ - โน๊ตบุ๊ค และ อุปกรณ์ไอที</p>
-<p className=""></p>
-</div>
+
 </div>
 </RootLayout>
     )
