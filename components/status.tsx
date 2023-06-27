@@ -28,10 +28,10 @@ export default function Status(){
                 </svg>
               </div>
               <h3 className="mb-4 text-2xl font-bold text-primary dark:text-primary-400">
-                1000
+                70 %
               </h3>
               <h5 className="text-lg font-medium text-neutral-500 dark:text-neutral-300">
-                Happy customers
+                สกิลการออกแบบ UX/XI
               </h5>
             </div>
   
@@ -56,7 +56,7 @@ export default function Status(){
                 70%
               </h3>
               <h5 className="text-lg font-medium text-neutral-500 dark:text-neutral-300">
-                Growth
+              สกิลการใช้โปรแกรมและไอที 
               </h5>
             </div>
   
