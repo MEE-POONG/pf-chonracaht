@@ -2,6 +2,7 @@ import React from "react";
 import RootLayout from "./layout";
 import { Container } from 'react-bootstrap';
 import Contactitem from "../../components/contactitem";
+import { MongoClient, ObjectId } from "mongodb";
 
 export default function Index () {
  return(
@@ -16,6 +17,9 @@ export default function Index () {
   </a></span></h1>
   <center><img className="mt-10" src="/img/user1.png" alt="" />
   <a href="info" className="font-medium text-blue-600 dark:text-blue-500 hover:underline  mt-4 text-m md:text-m">ดูข้อมูลเพิ่มเติม</a></center>
+
+
+
 
 
 

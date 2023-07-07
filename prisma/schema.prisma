@@ -1,0 +1,86 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Member {
+  id            String    @id @default(auto()) @map("_id") @db.ObjectId
+  username      String?
+  password      String?
+  firstname     String?
+  lastname      String?
+  bankAccount   String?
+  bank          String?
+  phone         String?
+  line          String?
+  email         String?
+  emailVerified Boolean?  @default(false)
+  createdAt     DateTime? @default(now())
+  updatedAt     DateTime? @updatedAt
+  deleted_at    DateTime? @map("deleted_at")
+  Partner       Partner[]
+}
+
+model Partner {
+  id                 String    @id @default(auto()) @map("_id") @db.ObjectId
+  userAG             String?
+  originAG           String?
+  percent            Int?
+  commission         Boolean?  @default(false)
+  overdue            Boolean?  @default(false)
+  adjustPercentage   Boolean?  @default(false)
+  pay                Boolean?  @default(false)
+  customerCommission Boolean?  @default(false)
+  recommender        String?
+  createdAt          DateTime? @default(now())
+  updatedAt          DateTime? @updatedAt
+  deleted_at         DateTime? @map("deleted_at")
+  memberId           String?   @db.ObjectId
+  member             Member?   @relation(fields: [memberId], references: [id])
+}
+
+model userprofile {
+  id         String    @id @default(auto()) @map("_id") @db.ObjectId
+  surename   String?
+  lastname   String?
+  nickname   String?
+  sex        String?
+  birthday   String?
+  password   String?
+  Tel        String?
+  email      String?
+  createdAt  DateTime? @default(now())
+  updatedAt  DateTime? @updatedAt
+  deleted_at DateTime? @map("deleted_at")
+  gameid     gameid[]
+}
+
+model gameid {
+  id            String       @id @default(auto()) @map("_id") @db.ObjectId
+  nameid        String?
+  passwordid    String?
+  createdAt     DateTime?    @default(now())
+  updatedAt     DateTime?    @updatedAt
+  deleted_at    DateTime?    @map("deleted_at")
+  userprofileID String?      @db.ObjectId
+  userprofile   userprofile? @relation(fields: [userprofileID], references: [id])
+}
+
+model post {
+  id     String  @id @default(auto()) @map("_id") @db.ObjectId
+  title  String?
+  heads  String?
+  footer String?
+}
+
+model picture {
+  id          String  @id @default(auto()) @map("_id") @db.ObjectId
+  imageString String?
+}

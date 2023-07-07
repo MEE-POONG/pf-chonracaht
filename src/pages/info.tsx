@@ -1,6 +1,7 @@
 import React from "react";
 import RootLayout from "./layout";
 import Status from "../../components/status";
+import Maps from "../../components/maps";
 export default function Info(){
 
     return(
@@ -154,6 +155,8 @@ export default function Info(){
     </div>
   </section>
 </div>
+
+<Maps/>
 
 
 
