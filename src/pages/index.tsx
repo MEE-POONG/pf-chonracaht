@@ -1,32 +1,58 @@
-import React from "react"; 
+import React, { useState } from "react";
 import RootLayout from "./layout";
-import { Container } from 'react-bootstrap';
-import Contactitem from "../../components/contactitem";
-import { MongoClient, ObjectId } from "mongodb";
 
-export default function Index () {
- return(
-    <RootLayout>
+export default function Homepage() {
+    const [isHovered, setIsHovered] = useState(false);
 
+    const handleMouseEnter = () => {
+        setIsHovered(true);
+    };
 
-  <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-10xl mt-10 ">
-    
-
-  <h1 className="text-center mb-4 text-2xl md:text-4xl"><span></span><span>MyProfile & Status</span></h1>
-  <h1 className="text-center text-2xl md:text-4xl"><span>I&apos;m</span><span><a href="info" className="font-medium text-2xl md:text-4xl"> Mr.chonracaht Intarasut 
-  </a></span></h1>
-  <center><img className="mt-10" src="/img/user1.png" alt="" />
-  <a href="info" className="font-medium text-blue-600 dark:text-blue-500 hover:underline  mt-4 text-m md:text-m">ดูข้อมูลเพิ่มเติม</a></center>
+    const handleMouseLeave = () => {
+        setIsHovered(false);
+    };
 
 
 
+    return (
 
+        <RootLayout>
+        <div >
+            <div style={{ textAlign: "center" }} className="mt-[20%]">
+                <h1
+                    id="click-here"
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
 
+                    style={{
+                        transition: "transform 0.3s",
+                        display: "inline-block",
+                        cursor: "pointer",
+                        transform: isHovered ? "scale(1.1)" : "scale(1)",
 
+                    }}
+                >
+                    <a href="profile">Click here</a>
+                </h1>
+            </div>
+            <div style={{ textAlign: "center" }}>
+            <h2
+                    id="click-here"
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
 
-   </div>
+                    style={{
+                        transition: "transform 0.3s",
+                        display: "inline-block",
+                        cursor: "pointer",
+                        transform: isHovered ? "scale(1.1)" : "scale(1)",
 
-
-   </RootLayout>
- )
+                    }}
+                    >
+                    <a href="profile">MyProfile</a>
+                </h2>
+            </div>
+        </div>
+        </RootLayout>
+    );
 }
