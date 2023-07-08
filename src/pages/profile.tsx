@@ -1,6 +1,7 @@
 import React from "react";
 import RootLayout from "./layout";
 import Status from "../../components/status";
+import Map from "../../components/googlemap";
 export default function Profile() {
 
     return (
@@ -113,8 +114,14 @@ export default function Profile() {
             </div>
 
 
-            <div>
-                
+            <p className="text-5xl text-center mt-[10%] ">Google Map</p>
+            <div className=" mt-10 w-[70%] h-[100px] ml-10 mb-[50%] "> 
+            
+                <Map apiKey={"AIzaSyC_TTKNVl9u2U2LXhKC5QyUrxUg4TsWzvA&callback"} center={{
+                    lat: 14.982215,
+                    lng: 102.108204
+                }} zoom={10}/>
+
             </div>
 
 
